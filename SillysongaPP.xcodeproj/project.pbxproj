@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D16BBB1F327C08001C50B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D16BBA1F327C08001C50B8 /* AppDelegate.swift */; };
+		78D16BBD1F327C08001C50B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D16BBC1F327C08001C50B8 /* ViewController.swift */; };
+		78D16BC01F327C08001C50B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D16BBE1F327C08001C50B8 /* Main.storyboard */; };
+		78D16BC21F327C08001C50B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D16BC11F327C08001C50B8 /* Assets.xcassets */; };
+		78D16BC51F327C08001C50B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D16BC31F327C08001C50B8 /* LaunchScreen.storyboard */; };
+		78D16BD01F327C08001C50B8 /* SillysongaPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D16BCF1F327C08001C50B8 /* SillysongaPPTests.swift */; };
+		78D16BDB1F327C08001C50B8 /* SillysongaPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D16BDA1F327C08001C50B8 /* SillysongaPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D16BCC1F327C08001C50B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D16BAF1F327C08001C50B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D16BB61F327C08001C50B8;
+			remoteInfo = SillysongaPP;
+		};
+		78D16BD71F327C08001C50B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D16BAF1F327C08001C50B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D16BB61F327C08001C50B8;
+			remoteInfo = SillysongaPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78D16BB71F327C08001C50B8 /* SillysongaPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SillysongaPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D16BBA1F327C08001C50B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78D16BBC1F327C08001C50B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78D16BBF1F327C08001C50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78D16BC11F327C08001C50B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78D16BC41F327C08001C50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78D16BC61F327C08001C50B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D16BCB1F327C08001C50B8 /* SillysongaPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillysongaPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D16BCF1F327C08001C50B8 /* SillysongaPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillysongaPPTests.swift; sourceTree = "<group>"; };
+		78D16BD11F327C08001C50B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D16BD61F327C08001C50B8 /* SillysongaPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SillysongaPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D16BDA1F327C08001C50B8 /* SillysongaPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SillysongaPPUITests.swift; sourceTree = "<group>"; };
+		78D16BDC1F327C08001C50B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D16BB41F327C08001C50B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BC81F327C08001C50B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BD31F327C08001C50B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D16BAE1F327C08001C50B8 = {
+			isa = PBXGroup;
+			children = (
+				78D16BB91F327C08001C50B8 /* SillysongaPP */,
+				78D16BCE1F327C08001C50B8 /* SillysongaPPTests */,
+				78D16BD91F327C08001C50B8 /* SillysongaPPUITests */,
+				78D16BB81F327C08001C50B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78D16BB81F327C08001C50B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D16BB71F327C08001C50B8 /* SillysongaPP.app */,
+				78D16BCB1F327C08001C50B8 /* SillysongaPPTests.xctest */,
+				78D16BD61F327C08001C50B8 /* SillysongaPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D16BB91F327C08001C50B8 /* SillysongaPP */ = {
+			isa = PBXGroup;
+			children = (
+				78D16BBA1F327C08001C50B8 /* AppDelegate.swift */,
+				78D16BBC1F327C08001C50B8 /* ViewController.swift */,
+				78D16BBE1F327C08001C50B8 /* Main.storyboard */,
+				78D16BC11F327C08001C50B8 /* Assets.xcassets */,
+				78D16BC31F327C08001C50B8 /* LaunchScreen.storyboard */,
+				78D16BC61F327C08001C50B8 /* Info.plist */,
+			);
+			path = SillysongaPP;
+			sourceTree = "<group>";
+		};
+		78D16BCE1F327C08001C50B8 /* SillysongaPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D16BCF1F327C08001C50B8 /* SillysongaPPTests.swift */,
+				78D16BD11F327C08001C50B8 /* Info.plist */,
+			);
+			path = SillysongaPPTests;
+			sourceTree = "<group>";
+		};
+		78D16BD91F327C08001C50B8 /* SillysongaPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78D16BDA1F327C08001C50B8 /* SillysongaPPUITests.swift */,
+				78D16BDC1F327C08001C50B8 /* Info.plist */,
+			);
+			path = SillysongaPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D16BB61F327C08001C50B8 /* SillysongaPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D16BDF1F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPP" */;
+			buildPhases = (
+				78D16BB31F327C08001C50B8 /* Sources */,
+				78D16BB41F327C08001C50B8 /* Frameworks */,
+				78D16BB51F327C08001C50B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SillysongaPP;
+			productName = SillysongaPP;
+			productReference = 78D16BB71F327C08001C50B8 /* SillysongaPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D16BCA1F327C08001C50B8 /* SillysongaPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D16BE21F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPPTests" */;
+			buildPhases = (
+				78D16BC71F327C08001C50B8 /* Sources */,
+				78D16BC81F327C08001C50B8 /* Frameworks */,
+				78D16BC91F327C08001C50B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D16BCD1F327C08001C50B8 /* PBXTargetDependency */,
+			);
+			name = SillysongaPPTests;
+			productName = SillysongaPPTests;
+			productReference = 78D16BCB1F327C08001C50B8 /* SillysongaPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78D16BD51F327C08001C50B8 /* SillysongaPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D16BE51F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPPUITests" */;
+			buildPhases = (
+				78D16BD21F327C08001C50B8 /* Sources */,
+				78D16BD31F327C08001C50B8 /* Frameworks */,
+				78D16BD41F327C08001C50B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D16BD81F327C08001C50B8 /* PBXTargetDependency */,
+			);
+			name = SillysongaPPUITests;
+			productName = SillysongaPPUITests;
+			productReference = 78D16BD61F327C08001C50B8 /* SillysongaPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D16BAF1F327C08001C50B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vidya Durvasula";
+				TargetAttributes = {
+					78D16BB61F327C08001C50B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					78D16BCA1F327C08001C50B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78D16BB61F327C08001C50B8;
+					};
+					78D16BD51F327C08001C50B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78D16BB61F327C08001C50B8;
+					};
+				};
+			};
+			buildConfigurationList = 78D16BB21F327C08001C50B8 /* Build configuration list for PBXProject "SillysongaPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78D16BAE1F327C08001C50B8;
+			productRefGroup = 78D16BB81F327C08001C50B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D16BB61F327C08001C50B8 /* SillysongaPP */,
+				78D16BCA1F327C08001C50B8 /* SillysongaPPTests */,
+				78D16BD51F327C08001C50B8 /* SillysongaPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D16BB51F327C08001C50B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D16BC51F327C08001C50B8 /* LaunchScreen.storyboard in Resources */,
+				78D16BC21F327C08001C50B8 /* Assets.xcassets in Resources */,
+				78D16BC01F327C08001C50B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BC91F327C08001C50B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BD41F327C08001C50B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D16BB31F327C08001C50B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D16BBD1F327C08001C50B8 /* ViewController.swift in Sources */,
+				78D16BBB1F327C08001C50B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BC71F327C08001C50B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D16BD01F327C08001C50B8 /* SillysongaPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D16BD21F327C08001C50B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D16BDB1F327C08001C50B8 /* SillysongaPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D16BCD1F327C08001C50B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D16BB61F327C08001C50B8 /* SillysongaPP */;
+			targetProxy = 78D16BCC1F327C08001C50B8 /* PBXContainerItemProxy */;
+		};
+		78D16BD81F327C08001C50B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D16BB61F327C08001C50B8 /* SillysongaPP */;
+			targetProxy = 78D16BD71F327C08001C50B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D16BBE1F327C08001C50B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D16BBF1F327C08001C50B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78D16BC31F327C08001C50B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D16BC41F327C08001C50B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D16BDD1F327C08001C50B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78D16BDE1F327C08001C50B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D16BE01F327C08001C50B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SillysongaPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		78D16BE11F327C08001C50B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SillysongaPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		78D16BE31F327C08001C50B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SillysongaPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SillysongaPP.app/SillysongaPP";
+			};
+			name = Debug;
+		};
+		78D16BE41F327C08001C50B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SillysongaPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SillysongaPP.app/SillysongaPP";
+			};
+			name = Release;
+		};
+		78D16BE61F327C08001C50B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SillysongaPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SillysongaPP;
+			};
+			name = Debug;
+		};
+		78D16BE71F327C08001C50B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SillysongaPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vidya.SillysongaPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SillysongaPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D16BB21F327C08001C50B8 /* Build configuration list for PBXProject "SillysongaPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D16BDD1F327C08001C50B8 /* Debug */,
+				78D16BDE1F327C08001C50B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D16BDF1F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D16BE01F327C08001C50B8 /* Debug */,
+				78D16BE11F327C08001C50B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78D16BE21F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D16BE31F327C08001C50B8 /* Debug */,
+				78D16BE41F327C08001C50B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78D16BE51F327C08001C50B8 /* Build configuration list for PBXNativeTarget "SillysongaPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D16BE61F327C08001C50B8 /* Debug */,
+				78D16BE71F327C08001C50B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78D16BAF1F327C08001C50B8 /* Project object */;
+}
