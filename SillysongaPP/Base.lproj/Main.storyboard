@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SillysongaPP" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silly Song" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QR-ly-8Lk">
+                                <rect key="frame" x="71" y="73" width="253" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="9aQ-Se-TvR"/>
+                                    <constraint firstAttribute="width" constant="253" id="uLt-ud-Hnh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cb0-3Y-A2G">
+                                <rect key="frame" x="19" y="228" width="337" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="337" id="DPB-b6-VRm"/>
+                                    <constraint firstAttribute="height" constant="30" id="Zu2-CE-guv"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="displaylyrics:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="VLm-q5-9n7"/>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="9if-gA-OTu"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="WNa-Ru-qU0"/>
+                                </connections>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TZm-aS-qxC">
+                                <rect key="frame" x="44" y="321" width="314" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="CBb-vK-cdB"/>
+                                    <constraint firstAttribute="width" constant="314" id="Raj-Um-t7G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" returnKeyType="done"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TZm-aS-qxC" firstAttribute="top" secondItem="Cb0-3Y-A2G" secondAttribute="bottom" constant="63" id="44X-0e-LRM"/>
+                            <constraint firstItem="0QR-ly-8Lk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="10" id="5DX-BN-Chg">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TZm-aS-qxC" secondAttribute="bottom" constant="161" id="5Mh-dm-OPe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cb0-3Y-A2G" secondAttribute="trailing" constant="3" id="BRg-We-NTz"/>
+                            <constraint firstItem="Cb0-3Y-A2G" firstAttribute="top" secondItem="0QR-ly-8Lk" secondAttribute="bottom" constant="56" id="BpG-HW-JjH"/>
+                            <constraint firstItem="Cb0-3Y-A2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="3" id="GxG-FF-xml"/>
+                            <constraint firstItem="Cb0-3Y-A2G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Iap-1T-SzW"/>
+                            <constraint firstItem="TZm-aS-qxC" firstAttribute="top" secondItem="Cb0-3Y-A2G" secondAttribute="bottom" constant="63" id="J10-KL-FJJ"/>
+                            <constraint firstItem="Cb0-3Y-A2G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="3" id="Jjd-CE-tKx"/>
+                            <constraint firstItem="Cb0-3Y-A2G" firstAttribute="top" secondItem="0QR-ly-8Lk" secondAttribute="bottom" constant="56" id="KWF-wq-d8K"/>
+                            <constraint firstItem="TZm-aS-qxC" firstAttribute="top" secondItem="Cb0-3Y-A2G" secondAttribute="bottom" constant="63" id="M6g-2G-Oil"/>
+                            <constraint firstItem="TZm-aS-qxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="QH6-WN-C38"/>
+                            <constraint firstItem="TZm-aS-qxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="TjW-ye-gF6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cb0-3Y-A2G" secondAttribute="trailing" constant="3" id="Y36-BZ-DE5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TZm-aS-qxC" secondAttribute="trailing" constant="1" id="gmC-es-Ep7"/>
+                            <constraint firstItem="0QR-ly-8Lk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="k2v-B2-Twn"/>
+                            <constraint firstItem="0QR-ly-8Lk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="53" id="lKq-YB-xOJ"/>
+                            <constraint firstItem="0QR-ly-8Lk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="mi0-12-N7t"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0QR-ly-8Lk" secondAttribute="trailing" constant="35" id="qeB-F5-sbQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TZm-aS-qxC" secondAttribute="bottom" constant="161" id="xrn-y4-oAM"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lyricsView" destination="TZm-aS-qxC" id="95K-gA-qVb"/>
+                        <outlet property="nameField" destination="Cb0-3Y-A2G" id="3uZ-LV-tTT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-3169" y="-209"/>
         </scene>
     </scenes>
 </document>
